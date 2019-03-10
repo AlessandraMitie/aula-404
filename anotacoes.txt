@@ -1,0 +1,24 @@
+para usar com heroku
+nome projeto: pesquisadeopiniaoalessandra
+acessar a pasta raiz do projeto
+garantir que o ambiente virtual (env) esteja ativo
+pip install gunicorn django-heroku
+sempre atualizar os requirements
+
+-> dizer como vai ser publicado
+abrir o vscode
+criar novo arquivo na raiz do projeto -> Procfile
+
+-> no arquivo requirements, apagar o arquivo pkg-resources
+
+no heroku, clicar em more
+no campo, digitar bash
+digitar python manage.py migrate
+
+python manage.py createsuperuser
+
+
+
+django.shortcuts.get_object_or_404
+
+como trocar pagina 404 no django
